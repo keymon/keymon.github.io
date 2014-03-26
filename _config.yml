@@ -2,7 +2,13 @@ name: keyteches - Some snippets and brushstrokes
 markdown: redcarpet
 pygments: true
 
+redcarpet:
+  extensions: [strikethrough, tables]
+
 permalink: /:categories/:year/:month/:day/:title
+
+url:
+baseurl:
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
